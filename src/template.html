@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Image carousel</title>
 </head>
 <body>
-    
+    <div id="image-carousel-container">
+        <button id="prev-button" class="arrow-button left">&#8592</button>
+        <div id="image-carousel">
+            <ul class="image-list">
+                <li class="carousel-slide"><img src="https://picsum.photos/200/300" /></li>
+                <li class="carousel-slide"><img src="https://picsum.photos/300/400" /></li>
+                <li class="carousel-slide"><img src="https://picsum.photos/400/500" /></li>
+            </ul>
+        </div>
+        <button id="next-button" class="arrow-button right">&#8594</button>
+    </div>
+    <div id="nav-dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
 </body>
 </html>
